@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;600;700&display=swap');
+
+:root{
+    --blue: blue;
+    --blueviolet: blueviolet; 
+    --white: white;
+}
+
+body { 
+    margin: 0px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.label-container { 
+   margin: auto; 
+}
+
+
+#left-title { 
+    color: white;
+}
+
+
+label { 
+    display: block;
+    width: 256px;
+    /* padding-left: 25px; */
+    text-align: center;
+    margin: auto;
+    
+}
+
+.label-block {
+    margin-bottom: 1rem;
+}
+
+#btn-submit {
+    display: block;
+    margin: auto;
+    border: solid 1px;
+    border-radius: 0.2rem;
+    padding: 0.2rem 1rem;
+    font-size: large;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar { 
+    border: solid var(--blue) 1px;
+    background: var(--blueviolet);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.no-bullet { 
+    list-style: none;
+    text-align: right;
+}
+
+.list-item-inline { 
+    display: inline;
+    padding: 1rem;
+}
+
+.container{ 
+    margin: 1rem;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    margin:0;
+}
+
+.hiddenMessage { 
+    border: solid 1px black;
+    border-radius: 0.5rem;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: var(--blueviolet);
+    color: var(--white); 
+
+}
+
+.addMargin { 
+    margin-top: 1rem;
+}
+
+nav a { 
+    text-decoration-line: none;
+}
+
+/* quiz css */
+h1 { 
+    text-align: center;
+}
+
+h3 { 
+    text-align: center;
+}
+
+p { 
+    text-align: center;
+}
+
+.radio-inline label { 
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+
+
+#btn-quiz{ 
+    display: block;
+    margin: auto;
+    padding: 0.5rem 1rem;
+    border: solid 1px;
+    border-radius: 0.5rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+#output-message { 
+    text-align: center;
+}
+
+
+.angle { 
+    text-align: center;
+    border: solid 1px;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+}
+
+/* // --- hypotenuse css ------- */
+
+.hypo-question-container {
+    margin-bottom: 1rem;
+}
+
+.hypo-qlabel {
+    margin-bottom: 1rem;
+}
+
+#btn-calchypo { 
+    display: block;
+    margin: auto;
+    padding: 0.5rem 1rem;
+    border: solid 1px;
+    border-radius: 0.5rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#firstSide, #secondSide { 
+text-align: center;
+border: solid 1px;
+border-radius: 0.2rem;
+padding: 0.5rem;
+}
+
+#notify { 
+    color: var(--blueviolet);
+    font-size: larger;
+}
+
+
+
+/* // --- area of a triangle css ------- */
+.area-question-container {
+    margin-bottom: 1rem;
+}
+
+.area-qlabel {
+    margin-bottom: 1rem;
+    width: 400px;
+}
+
+#btn-calcAt{ 
+    display: block;
+    margin: auto;
+    padding: 0.5rem 1rem;
+    border: solid 1px;
+    border-radius: 0.5rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#base, #height { 
+    text-align: center;
+    border: solid 1px;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    }
+
+#notifyAt { 
+        color: var(--blueviolet);
+        font-size: larger;
+    }
+
+.footer { 
+    display: block;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.footer-ul { 
+    padding-inline-start: 0px;
+    list-style: none;
+}
+
+.footer-inline { 
+    display: inline;
+}
+
+.footer ul li a { 
+    text-decoration: none;
+    color: black;
+}
+
+/* identify */
+.questionsAsked { 
+margin-top: 2rem;
+} 
+
+#btn-identify{ 
+    display: block;
+    margin: auto;
+    padding: 0.5rem 1rem;
+    border: solid 1px;
+    border-radius: 0.5rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#output-score { 
+    text-align: center;
+}
+
+/* Sides quiz */
+.questionsSide { 
+    margin-top: 2rem;
+    } 
+
+#btn-sides { 
+    display: block;
+    margin: auto;
+    padding: 0.5rem 1rem;
+    border: solid 1px;
+    border-radius: 0.5rem;
+    font-family: 'Noto Sans', sans-serif;
+}
