@@ -12,7 +12,7 @@
 
         <li class="list-item-inline"> 
                 
-            <a href="./identifytriangles.html"> Identify Triangle </a> 
+            <a href="./identifytriangles.html"> Identify Triangle Quiz </a> 
         
         </li>
 
@@ -25,13 +25,13 @@
 
         <li class="list-item-inline"> 
             
-            <a href="./index.html" id="indexLink"> Is Triangle  </a> 
+            <a href="./index.html" id="indexLink"> Is it a Triangle  </a> 
         
         </li>
 
         <li class="list-item-inline"> 
             
-            <a href="./hypotenuse.html"> Hypotenuse </a> 
+            <a href="./hypotenuse.html"> Calculate Hypotenuse </a> 
         
         </li>
 
@@ -40,15 +40,6 @@
             <a href="./areaoftriangle.html"> Area of Triangle </a> 
         
         </li>
-        
-
-
-        
-        
-
-        
-
-    
         
     </ul>
     
