@@ -95,7 +95,7 @@ h1 {
     text-align: center;
 }
 
-h3 { 
+h3, h4 { 
     text-align: center;
 }
 
@@ -160,7 +160,14 @@ padding: 0.5rem;
 
 #notify { 
     color: var(--blueviolet);
+    font-style: bold;
     font-size: larger;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 0.5rem;
+    width: fit-content;
+    margin: 1rem auto;
+    padding: 1rem;
 }
 
 
@@ -193,13 +200,23 @@ padding: 0.5rem;
 
 #notifyAt { 
         color: var(--blueviolet);
+        font-style: bold;
         font-size: larger;
+        text-align: center;
+        border: 1px solid;
+        border-radius: 0.5rem;
+        width: fit-content;
+        margin: 1rem auto;
+        padding: 1rem;
     }
 
 .footer { 
     display: block;
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 4rem;
+    background-color: var(--blueviolet);
+    padding: 1rem;
+    color: white;
 }
 
 .footer-ul { 
@@ -213,7 +230,7 @@ padding: 0.5rem;
 
 .footer ul li a { 
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 /* identify */
@@ -252,5 +269,11 @@ margin-top: 2rem;
 
 .how-do-we { 
     text-align: center; 
-    color: var(--blueviolet);
+    text-decoration-line: underline;
+    /* color: var(--blueviolet); */
+}
+
+.footer ul { 
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
