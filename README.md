@@ -11,5 +11,5 @@ Calculators:
 2 Enter two sides of the triangle to find out the hypotenuse of the triangle. 
 3 Enter base and height of the triangle to find out the area of the triangle. 
 
-There are three different quizzes that test your knowledge on different types of triangles.
+In addition, there are three different quizzes that test your knowledge on different types of triangles.
 
