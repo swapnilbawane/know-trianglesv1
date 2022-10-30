@@ -13,3 +13,6 @@ Calculators:
 
 In addition, there are three different quizzes that test your knowledge on different types of triangles.
 
+Home Page:
+![Home page](https://github.com/swapnilbawane/know-trianglesv1/blob/main/screenshot/m12-home.png?raw=true)
+
