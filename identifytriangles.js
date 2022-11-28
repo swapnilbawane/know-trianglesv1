@@ -87,7 +87,7 @@ function calcScore() {
 
 
     // take note of if all questions answered or some or none.
-    let questionNotAnsweredTally = checkEntries();  
+    let questionAnsweredTally = checkEntries();  
 
     // SCORES IMPLEMENTATION:: 
     // Show scores should be based on if all questions are attempted or left out or no questions attempted. 
@@ -95,13 +95,13 @@ function calcScore() {
      // if some questions are answered, answerTally will be incremented but its value will be less than answers.length 
      // if all questions are answered, it will never enter the if loop and answerTally will be 0 as initialized. 
 
-    if ( questionNotAnsweredTally === 0)
+    if ( questionAnsweredTally === 0)
     { 
         noAnswerMessage(); 
     }
 
     else 
-    if ( questionNotAnsweredTally < correctAnswers.length) 
+    if ( questionAnsweredTally < correctAnswers.length) 
     { // if some questions are answered noAnswerTally will be incremented and its value will be greater than 0 and less than answers.length - then score should not be calculated. Show then to complete all questions 
         answerTally = 0; 
         outputScore.style.display = "block";   
