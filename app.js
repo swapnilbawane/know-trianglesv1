@@ -8,20 +8,31 @@ var indexLinkDeco = document.querySelector("#indexLink");
 
 function isTriangle() { 
 
-    var sum = Number(angleInput[0].value)+Number(angleInput[1].value)+Number(angleInput[2].value); 
-
-if(sum===180) 
-{
-hiddenMsg.style.display = "block";
-hiddenMsg.innerText = "Sum of angles is "+sum+". This forms a triangle."; 
-} 
-
-else 
-{
+    if(angleInput[0].value && angleInput[1].value && angleInput[2].value)
+    {
+        
+     if (angleInput[0].value > 0 && angleInput[1].value > 0 && angleInput[2].value > 0 ) 
+     {
+         var sum = Number(angleInput[0].value)+Number(angleInput[1].value)+Number(angleInput[2].value);
+         
+         if(sum===180) 
+     {
+      hiddenMsg.style.display = "block";
+      hiddenMsg.innerText = "Sum of angles is "+sum+". This forms a triangle."; 
+     } 
+      
+         else 
+    {
     hiddenMsg.style.display = "block";
     hiddenMsg.innerText = "Sorry this does not form a triangle. Enter different values to find out.";   
-}
-
+    }
+         
+     }
+     else hiddenMsg.innerText = "Please enter value greater than 0.";     
+    } 
+    
+    else hiddenMsg.innerText = "Sorry please enter all values.";
+   
 }
 
 
